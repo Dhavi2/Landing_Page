@@ -1,0 +1,112 @@
+.footerContainer{
+    width:100%;
+    background-color:black;
+    color:#fff;
+    padding: 60px 20px 30px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Top footer section */
+.navfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subscribe-box input {
+  padding: 12px 14px;
+  width: 260px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.subscribe-box button {
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.subscribe-box button:hover {
+  background-color: #ccc;
+}
+.bottomfooter {
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+}
+.bottomfooter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px 60px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-col {
+  min-width: 180px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #b5b5b5;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul li:hover {
+  color: #ffffff;
+}
+.card{
+     width: 25%;
+  height: 380px;
+  position: relative;
+}
+.card img{
+     height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  padding-bottom: 60px; /* space for button */
+}

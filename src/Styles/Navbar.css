@@ -1,0 +1,85 @@
+/* Navbar background & spacing */
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 20px;
+  height:70px
+}
+
+/* Logo image spacing */
+.navbar-brand img {
+  padding: 5px;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  color: #111;
+  font-weight: 500;
+  margin: 0 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2e7d32; /* Land Rover green */
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+  color: #2e7d32;
+  font-weight: 600;
+}
+.nav-link.active:hover {
+    background-color: #c6c3c3;
+}
+#nav-linkactive:hover {
+    background-color: #b3b0b0;
+}
+/* Dropdown menu */
+.dropdown-menu {
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #6b6868;
+  color: #f9faf9;
+}
+
+/* Search input */
+.form-control {
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #2e7d32;
+}
+
+/* Search button */
+.btn-outline-success {
+  color: #2e7d32;
+  border-color: #2e7d32;
+  border-radius: 0;
+  font-weight: 500;
+}
+
+.btn-outline-success:hover {
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+/* Mobile toggle button */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
